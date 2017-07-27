@@ -15,7 +15,7 @@ module.exports.init = (app, done) => {
     let proxyPort = proxyConfig.port || 9050;
 
     app.addHook('sender:fetch', (delivery, next) => {
-        if (/^\.onion$/i.test(delivery.domain)) {
+        if (/\.onion$/i.test(delivery.domain)) {
             delivery.useOnionNetwork = true;
             delivery.mx = [
                 {
