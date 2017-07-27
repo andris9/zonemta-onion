@@ -40,7 +40,7 @@ module.exports.init = (app, done) => {
                     type: 5
                 },
                 target: {
-                    host: 'delivery.domain',
+                    host: delivery.domain,
                     port: 25
                 },
                 command: 'connect'
