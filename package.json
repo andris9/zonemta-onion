@@ -1,0 +1,20 @@
+{
+    "name": "zonemta-onion",
+    "version": "1.0.0",
+    "description": "Tor network plugin for ZoneMTA",
+    "main": "index.js",
+    "author": "Andris Reinman",
+    "license": "EUPL-1.1",
+    "scripts": {
+        "test": "grunt"
+    },
+    "dependencies": {
+        "socks": "^1.1.10"
+    },
+    "devDependencies": {
+        "eslint-config-nodemailer": "^1.2.0",
+        "grunt": "^1.0.1",
+        "grunt-cli": "^1.2.0",
+        "grunt-eslint": "^20.0.0"
+    }
+}
