@@ -32,7 +32,7 @@ module.exports.init = (app, done) => {
     });
 
     app.addHook('sender:connect', (delivery, options, next) => {
-        if (delivery.useOnionNetwork) {
+        if (delivery.useOnionNetwork && delivery.mxPort === proxyPort) {
             let connection = {
                 proxy: {
                     ipaddress: proxyHost,
