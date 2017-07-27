@@ -53,6 +53,8 @@ module.exports.init = (app, done) => {
                 }
                 next();
             });
+        } else {
+            next();
         }
     });
 

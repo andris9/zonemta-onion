@@ -1,6 +1,6 @@
 {
     "name": "zonemta-onion",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Tor network plugin for ZoneMTA",
     "main": "index.js",
     "author": "Andris Reinman",
